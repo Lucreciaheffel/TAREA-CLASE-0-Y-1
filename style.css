@@ -39,6 +39,10 @@ footer{
     display: grid;
     place-items: center;
 }
+div{
+    width: 60%;
+    align-items: center;
+}
 p{
     color: #0e0e0e;
     margin: 50px 0;
