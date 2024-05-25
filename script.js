@@ -41,7 +41,7 @@
 //     console.log(nombre [i])
 // }
 
-let topping = "oreo";
+/*let topping = "oreo";
 let precio = 0;
 let preciofinal = 0;
 let helado = 400;
@@ -90,3 +90,46 @@ while (numero < 11) {
 console.log("numero es mas chico que 11");
 numero++;
 }
+
+let num=8;
+let sum=0;
+while (num<=10) {
+    sum += num; 
+    num++;   
+  }
+  
+  console.log("La suma de los números del 1 al 10 es: " + sum);
+  
+  let total;
+  let numero1=3;
+  let numero2=5;
+  function sym (){
+    total=numero1 + numero2;
+    alert("el resultado es "+ total);
+  }
+  sym()
+
+ 
+let number=prompt("Introduce un numero entero");
+let result=parImpar(number);
+alert("el numero " +number+"es "+result);
+function parImpar(number){
+    if(number % 2 == 0){
+    return "par";
+    }
+    else{
+    return "impar";
+    }
+}*/
+
+
+let nom = prompt("ingrese nombre");
+function saludo() {
+    if (nom) {
+        alert("bienvenido " + nom);
+    }
+    else {
+        alert("debe ingresar un nombre");
+    }
+}
+saludo();
